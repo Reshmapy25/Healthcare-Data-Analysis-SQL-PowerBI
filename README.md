@@ -1,39 +1,53 @@
 # Healthcare Data Analysis using SQL & Power BI
 
-## Project Overview
-This project analyzes healthcare patient data to uncover insights related to patient demographics, medical conditions, hospital stay duration, and billing patterns. The analysis was performed using SQL for data exploration and Power BI for visualization.
+End-to-end healthcare data analysis project using SQL and Power BI to analyze patient demographics, hospital stay duration, and billing patterns.
 
-## Dataset
-- Patient healthcare dataset
-- Records include age, gender, medical condition, admission type, billing amount, admission date, and discharge date
+---
 
-## Tools & Technologies
-- SQL (MySQL)
-- Power BI
-- GitHub
+## 📊 Power BI Dashboard
 
-## Key Analysis Performed (SQL)
-- Total patient count
-- Age distribution (min, max, average)
-- Patient distribution by gender
-- Patient count by medical condition
-- Average billing amount by medical condition
-- Average length of stay by admission type
-- Data quality checks (invalid admission and discharge dates)
+![Healthcare Dashboard](https://github.com/user-attachments/assets/13eb2168-b30d-4bd0-8c1f-2990d48a9f07)
 
-## Power BI Dashboard Insights
-- Total patients, average age, and average length of stay
-- Length of stay by admission type
-- Billing amount by medical condition
-- Relationship between billing amount and length of stay
-- Medical condition comparison using scatter and bar charts
+---
 
-## Files in This Repository
-- `patient_data_analysis.sql` – SQL queries used for data analysis
-- `README.md` – Project documentation
+## 📌 Project Overview
+This project focuses on analyzing healthcare patient data to answer key business questions such as:
+- How long do patients stay in hospitals on average?
+- How do medical conditions affect billing and length of stay?
+- What patterns exist across admission types and demographics?
 
-## Conclusion
-This project demonstrates an end-to-end healthcare data analysis workflow using SQL and Power BI. It highlights the ability to extract insights from raw data, validate data quality, and present findings using interactive dashboards.
 
-## Author
-Reshma Babu
+SQL was used for data exploration and transformation, and Power BI was used to build an interactive dashboard.
+
+---
+
+## 🗄️ Dataset
+The dataset contains patient-level healthcare records including:
+- Age, Gender
+- Medical Condition
+- Admission & Discharge Dates
+- Length of Stay
+- Billing Amount
+- Admission Type
+
+---
+
+## 🛠️ Tools & Technologies
+- **SQL (MySQL)** – data cleaning, aggregation, and analysis  
+- **Power BI** – KPI cards, bar charts, and scatter plots  
+- **GitHub** – project documentation and version control  
+
+---
+
+## 📈 Key Insights
+- Average patient age is **~51 years**
+- Average length of hospital stay is **~69 days**
+- Emergency admissions have slightly longer stays
+- Higher billing amounts are generally associated with longer hospital stays
+- Certain medical conditions show consistently higher costs
+
+---
+
+## 📂 Files in this Repository
+- `patient_data_analysis.sql` – SQL queries used for analysis
+- `README.md` – project documentation
