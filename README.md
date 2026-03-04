@@ -130,7 +130,8 @@ Healthcare-Data-Analysis-SQL-PowerBI/
 ├── Healthcare_Dashboard.pbix
 ├── dashboard_screenshot.png
 └── README.md
-
+Dashboard preview:
+<img width="1307" height="736" alt="Healthcare dashboard" src="https://github.com/user-attachments/assets/22f59818-d56c-45a8-94c1-9992641a7cb8" />
 How to Run This Project
 •	Import dataset into MySQL
 •	Execute SQL script
